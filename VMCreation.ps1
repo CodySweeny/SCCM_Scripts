@@ -1,4 +1,7 @@
-﻿$VMName=Read-Host "Please enter a hostname for your new VM"
+#Cody Sweeny
+#10/15/2020
+
+$VMName=Read-Host "Please enter a hostname for your new VM"
 $HDD= 40GB #HDD Size
 $MEM= 4096MB #RAM
 $HVHost= "" #Hyper-V Host
